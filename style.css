@@ -1,0 +1,265 @@
+@font-face {
+    font-family: Oswald;
+    src: url(/assets/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+.main{
+    width: 1440px;
+    height: 2817px;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    font-family: 'Oswald';
+}
+
+.content{
+    width: 1111px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 350px;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+}
+
+.headerdiv{
+    background: url(/assets/images/headerbackground.png) no-repeat;
+    background-size: 100%;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.headerbutton{
+    width: 112px;
+    height: 47px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #cf404c00;
+    margin: 10px 10px 237px 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: 3px solid white;
+}
+
+.buttontitle{
+    margin: 13px;
+}
+
+.button{
+    border: 3px solid #CF404D;
+    background-color: #CF404D;
+}
+
+nav{
+    height: 100%;
+    width: 329px;
+    background-color: #2D3E4F;
+    text-align: center;
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.navtitle{
+    font-weight: 400;
+    font-size: 30px;
+    color:#CF404D;
+    margin: 206px 95px 0px 95px;
+}
+
+.navitems{
+    font-weight: 400;
+    font-size: 14px;
+    color:white;
+    margin: 79px 95px 0px 95px;
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    justify-content: space-between;
+}
+
+.sectiondiv{
+    background-color: white;
+    height: 549px;
+    width: 100%;
+    color: #313131;
+}
+
+.sectiontext{
+    height: 25%;
+    text-align: center;
+    font-size: 31px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.sectiontextp{
+    font-size: 19px;
+    color: rgba(115, 115, 115,0.74);
+}
+.sectiontextpheading{
+    margin: 0px;
+}
+
+.sectionicons{
+    height: 20%;
+    display: flex;
+    margin: 10px 20px 10px 20px;
+    align-content: flex-start;
+}
+
+.icondiv{
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.sectiondetails{
+    height: 50%;
+    display: flex;
+    margin: 10px 20px 10px 70px;
+}
+
+.detailsdiv{
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    text-align: left;
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.atext{
+    color: #CF404D;
+    margin: 0;
+}
+
+.ptext{
+    margin: 0;
+}
+
+.imgicons{
+    margin: auto;
+}
+
+.actiondiv{
+    background-color: #CF404D;
+    height: 135px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+.actiontext{
+    margin: 42px;
+}
+
+.lightdiv{
+    background-color: white;
+    height: 700px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.lightpics{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-left: 7%;
+}
+
+.lightimg{
+    height: 215px;
+    margin: 10px;
+}
+
+.contactdiv{
+    background-color: #FAFAFA;
+    height: 481px;
+    width: 100%;
+    border: 3px solid #f6e8e8;
+    box-sizing: border-box;
+}
+
+.contactfield1{
+    width: 281px;
+    height: 45px;
+    background-color: white;
+}
+
+.contactfield2{
+    width: 281px;
+    height: 45px;
+    background-color: white;
+}
+
+.footerdiv{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+form{
+    width: 583px;
+    height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+textarea{
+    width: 576px;
+    height: 110px;
+    margin-top: 17px;
+    border-radius: 3px;
+    border: #f6e8e8 solid 1px;
+
+}
+
+input{
+    width: 282px;
+    height: 45px;
+    border-radius: 3px;
+    border: #f6e8e8 solid 1px;
+    margin: auto;
+    margin-top: 20px
+}
+
+button{
+    width: 583px;
+    height: 45px;
+    background-color: #CF404D;
+    color: white;
+    margin-top: 17px;
+    border: #FAFAFA;
+    border-radius: 3px;
+    font-size: 19px;
+}
